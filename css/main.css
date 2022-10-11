@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap'); 
+
+body {
+    background-image: url('/SugestaoFilmes/img/background.png');
+    font-family: Poppins;
+
+    margin: auto;
+    width: 648px; 
+    padding: 50px; 
+    text-align: center;
+    color: #FFFCF9;
+}
+h1 {
+    color: #fffcf9;
+}
+#randomMovie #text {
+    display: none;
+}
+#randomMovie {
+    display: flex;
+    text-align: left;
+}
+#randomMovie #title {
+    font-weight: bold;
+    font-size: 20px;
+}
+#randomMovie #description {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: justify;
+}
+#randomMovie img {
+    width: 171px;
+    height: 243.77px;
+    margin-right: 30px;
+}
+#randomMovie #movieNotFound {
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+}
+#btnEncontrarFilme {
+    cursor: pointer;
+    margin-top: 10px;
+}
